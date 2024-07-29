@@ -21,7 +21,7 @@ ul{
     display: flex;
     margin: 0;
 }
-li{
+.li4{
     list-style: none;
     color: rgb(183, 183, 183);
     font-size: 14px;
@@ -31,7 +31,7 @@ li{
     cursor: pointer;
 }
 @media screen and (max-width:862px) {
-    li{
+    .li4{
         display: none;
     }
 }
