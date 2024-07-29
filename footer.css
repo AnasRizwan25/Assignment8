@@ -1,0 +1,40 @@
+.div5{
+    padding: 25px 40px;
+    background-color:  rgb(34, 34, 34);
+    font-family:  Raleway, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+.txt3{
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+}
+span{
+    color: white;
+}
+.pic6{
+    width: 142px;
+    height: 24px;
+}
+.div6{
+    width: 8vw;
+}
+.so{
+    color: red;
+
+}
+.so1:hover{
+    color:  rgb(14, 206, 145);
+    cursor: pointer;
+}
+@media (min-width:300px) and (max-width:1024px) {
+    .div5{
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .div6{
+        justify-content: center;
+    }
+    
+}

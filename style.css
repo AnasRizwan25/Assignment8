@@ -1,0 +1,42 @@
+.header{
+    height: 13vh;
+    font-family: Aldrich, sans-serif;
+    padding: 28px 78px;
+}
+.pic1{
+    width: 145px;
+    height: 22px;
+    cursor: pointer;
+}
+.div2{
+    width: 60px;
+    margin-left: 26px;
+    flex-shrink: none;
+    cursor: pointer;
+}
+.text{
+    color: black;
+}
+ul{
+    display: flex;
+    margin: 0;
+}
+li{
+    list-style: none;
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-family: 400;
+    padding: 5px 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:862px) {
+    li{
+        display: none;
+    }
+}
+@media screen and (max-width:425px) {
+    .container-fluid{
+        padding: 40px 15px;
+    }
+}

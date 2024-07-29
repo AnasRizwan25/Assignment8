@@ -1,0 +1,32 @@
+.div3{
+    font-family: Aldrich, sans-serif;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.ul1{
+    list-style: disc;
+    flex-wrap: wrap;
+}
+.li1{
+    list-style: none;
+    color: rgb(156, 151, 151);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1px 0px;
+    margin-right: 20px;
+    align-self: center;
+    margin-right: 10px;
+}
+.a{
+    padding-bottom: 4px;
+    font-size: 20px;
+    color: rgb(119, 118, 118);
+}
+.li2{
+    color: black;
+}
+@media screen and (max-width:768px) {
+    .li1{
+        display: inline;
+    }
+}

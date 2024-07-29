@@ -1,0 +1,35 @@
+.relative{
+    position: relative;
+}
+.absol{
+    font-family: Aldrich, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    font-family: 600;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+.txt1{
+    font-size: 22px;
+}
+.relative:hover .absol{
+    opacity: 1;
+}
+@media (min-width:50px) and (max-width:576px) {
+    .txt1{
+        font-size: 20px;
+    }
+}
+@media (min-width:992px) and (max-width:1365px){
+    .txt1{
+        font-size: 17px;
+    }
+}
+@media (min-width:1367px) and (max-width:3000px){
+    .txt1{
+        font-size: 25px;
+    }
+}
