@@ -31,9 +31,14 @@ span{
     .div5{
         justify-content: center;
         text-align: center;
-        
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .pic6{
+        width: 130px;
+        height: 20px;
     }
     .div6{
-        justify-content: center;
+        width: 18vw;
     }
 }
